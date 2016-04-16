@@ -1,0 +1,6 @@
+{
+  "host": "vbs-app.feathersjs.com",
+  "port": "PORT",
+  "nedb": "NEDB_BASE_PATH",
+  "public": "../public/"
+}

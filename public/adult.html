@@ -1,0 +1,171 @@
+<html>
+  <head>
+    <title>Welcome to Feathers</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.min.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <section>
+      <div class="row">
+        <div class="medium-10 columns medium-centered">
+          <br>
+          <div class="callout">
+            <h2>VBS Adult Leader Volunteer Registration</h2>
+            <p class="caption">Volunteers must be regular attenders of SW Hills Baptist Church.</p>
+          </div>
+
+          <form data-abide>
+            <h4>Name</h4>
+            <div class="row">
+              <div class="medium-6 columns">
+                <label>First*
+                  <input type="text" name="first" required pattern="text">
+                </label>
+              </div>
+              <div class="medium-6 columns">
+                <label>Last*
+                  <input type="text" name="last" required pattern="text">
+                </label>
+              </div>
+            </div>
+
+            <h4>Address</h4>
+            <div class="row">
+              <div class="medium-12 columns">
+                <label>Street*
+                  <input type="text" name="street" required pattern="alpha_numeric">
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="medium-12 columns">
+                <label>
+                  <input type="text" name="street2" pattern="alpha_numeric">
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="medium-6 columns">
+                <label>City*
+                  <input type="text" name="city" required pattern="number">
+                </label>
+              </div>
+              <div class="small-4 medium-2 columns">
+                <label>State*
+                  <input type="text" name="state" required placeholder="">
+                </label>
+              </div>
+              <div class="small-8 medium-4 columns">
+                <label>Zip*
+                  <input type="text" name="zip" required pattern="number">
+                </label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="medium-5 columns">
+                <label>Primary Phone*
+                  <input type="text" name="primaryPhone" required pattern="tel">
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="medium-5 columns">
+                <label>Additional Phone
+                  <input type="text" name="additionalphone" pattern="tel">
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="medium-7 columns">
+                <label>Email Address*
+                  <input type="text" name="homephone" pattern="">
+                </label>
+              </div>
+            </div>
+            <h4>Service and Availability</h4>
+            <div class="row">
+              <div class="medium-12 columns">
+               <label>Days available (select all that apply)*</label>
+               <input id="mon" type="checkbox" value="1"><label for="mon">Monday</label>
+               <input id="tues" type="checkbox" value="2"><label for="tues">Tuesday</label>
+               <input id="weds" type="checkbox" value="3"><label for="weds">Wednesday</label>
+               <input id="thurs" type="checkbox" value="3"><label for="thurs">Thursday</label>
+               <input id="fri" type="checkbox" value="3"><label for="fri">Friday</label>
+             </div>
+         </div>
+
+         <div class="row">
+           <div class="medium-12 columns">
+            <label >I wish to serve in*
+              <select size="1" required aria-required="true">
+                   <option value="Staff Childcare before VBS starts (8:00-9:00 AM Mon.; 8:30-9:00 AM Tues. - Fri.)">Staff Childcare before VBS starts (8:00-9:00 AM Mon.; 8:30-9:00 AM Tues. - Fri.)</option>
+                   <option value="Nursery/Toddler Staff Care">Nursery/Toddler Staff Care</option>
+                   <option value="Staff Preschool Teacher">Staff Preschool Teacher</option>
+                   <option value="Younger Grades (K-2nd)">Younger Grades (K-2nd)</option>
+                   <option value="Older Grades (3rd-5th)">Older Grades (3rd-5th)</option>
+                   <option value="Recreation">Recreation</option>
+                   <option value="Craft Prep">Craft Prep</option>
+                   <option value="Craft (K-5th)">Craft (K-5th)</option>
+                   <option value="Snack (K-5th)">Snack (K-5th)</option>
+                   <option value="Drama/Music">Drama/Music</option>
+                   <option value="Decor Prep ahead of time">Decor Prep ahead of time</option>
+                   <option value="Middle School - Small Group Leader">Middle School - Small Group Leader</option>
+                   <option value="Middle School - Snack">Middle School - Snack</option>
+                   <option value="Middle School - Craft">Middle School - Craft</option>
+                   <option value="Middle School - Rec">Middle School - Rec</option>
+                   <option value="Anywhere">Anywhere Needed</option>
+             </select>
+           </label>
+         </div>
+        </div>
+
+        <div class="row">
+          <div class="medium-12 columns">
+            <label>I wish to serve in (2nd Choice)
+              <select size="1">
+                <option value="Staff Childcare before VBS starts (8:00-9:00 AM Mon.; 8:30-9:00 AM Tues. - Fri.)">Staff Childcare before VBS starts (8:00-9:00 AM Mon.; 8:30-9:00 AM Tues. - Fri.)</option>
+                <option value="Nursery/Toddler Staff Care">Nursery/Toddler Staff Care</option>
+                <option value="Staff Preschool Teacher">Staff Preschool Teacher</option>
+                <option value="Younger Grades (K-2nd)">Younger Grades (K-2nd)</option>
+                <option value="Older Grades (3rd-5th)">Older Grades (3rd-5th)</option>
+                <option value="Recreation">Recreation</option>
+                <option value="Craft Prep">Craft Prep</option>
+                <option value="Craft (K-5th)">Craft (K-5th)</option>
+                <option value="Snack (K-5th)">Snack (K-5th)</option>
+                <option value="Drama/Music">Drama/Music</option>
+                <option value="Decor Prep ahead of time">Decor Prep ahead of time</option>
+                <option value="Middle School - Small Group Leader">Middle School - Small Group Leader</option>
+                <option value="Middle School - Snack">Middle School - Snack</option>
+                <option value="Middle School - Craft">Middle School - Craft</option>
+                <option value="Middle School - Rec">Middle School - Rec</option>
+                <option value="Anywhere">Anywhere Needed</option>
+                <option value="">&nbsp;</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="medium-12 columns">
+            <label>List any children that are too young to attend that will require childcare during VBS.
+              <textarea name="chidren" rows="6" cols="50" placeholder="Name - Age" ></textarea>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="medium-12 columns">
+            <h4>Medical Forms on File</h3>
+            <input id="medical" type="checkbox" value="1"><label for="medical">I've confirmed that my medical forms are on file at the church.</label>
+          </div>
+        </div>
+        <div>
+          <a href="#" class="button">Register!</a>
+        </div>
+      </form>
+      <!--  https://willowsystems.github.io/jSignature/#/demo/ -->
+    </section>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js" charset="utf-8"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/plugins/foundation.core.js" charset="utf-8"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/plugins/foundation.abide.js" charset="utf-8"></script>
+  </body>
+</html>
