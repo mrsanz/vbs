@@ -17,7 +17,7 @@
   "scripts": {
     "test": "npm run jshint && npm run mocha",
     "jshint": "jshint src/. test/. --config",
-    "start": "./node_modules/.bin/babel-node src/",
+    "start": "babel-node src/",
     "mocha": "mocha test/ --compilers js:babel-core/register --recursive"
   },
   "dependencies": {
